@@ -1,0 +1,84 @@
+# ----------------------------
+# Python
+# ----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+*.egg
+*.egg-info/
+*.pyd
+.Python
+env/
+venv/
+ENV/
+.venv/
+.ipynb_checkpoints/
+
+# ----------------------------
+# IDE / Editor
+# ----------------------------
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# ----------------------------
+# Data / Outputs
+# ----------------------------
+/data/
+/datasets/
+/outputs/
+/results/
+/logs/
+/cache/
+/checkpoints/
+/runs/
+/wandb/
+/tensorboard/
+/experiments/
+
+# ----------------------------
+# System
+# ----------------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------------
+# Model / Tokenizer Files
+# ----------------------------
+*.bin
+*.pt
+*.ckpt
+*.h5
+*.safetensors
+*.pkl
+
+# ----------------------------
+# Temporary Files
+# ----------------------------
+*.tmp
+*.log
+*.bak
+*.swp
+*.out
+*.err
+
+# ----------------------------
+# Notebooks / Reports
+# ----------------------------
+*.ipynb_checkpoints
+*.nbconvert.ipynb
+*.pdf
+*.html
+
+# ----------------------------
+# Credentials / API Keys
+# ----------------------------
+*.env
+.env.local
+secrets.json
+config.yaml
+config.json
+
+outputs/
